@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function funChange() {
+
+            for (i = 10; i >= 5; i--) {
+                console.log(i + "<br/>")
+            }
+
+
+
+
+//             var a=[]={zaid,saif,matten,pasha};
+// for (i=0; i>a.lenth; i++)  
+// {  
+// document.write(a[i]) //zaid0, //saif1,....//pasha3
+// }  
+
+
+
+
+            
+            // //h1 p span div innerHTML
+            // document.getElementById("demoP").innerHTML="hi world";
+            // //input type text,button,date,phone value
+            // document.getElementById("buu").value="hi world";
+            // let s=document.getElementById("d").value;
+            // console.log(s);
+            // let a=10,b=20,c=30;
+            // if(a>b)
+            // {
+            //     if(a>c)
+            //     {
+            //     alert("a"+a)
+            //     }
+            //     else{
+            //         alert("c"+c)
+            //     }
+            // }
+            // else{
+            //     if(b>c)
+            //     {
+            //     alert("b"+b)
+            //     }
+            //     else{
+            //         alert("c"+c)
+            //     }
+
+            // }
+
+
+
+
+
+            var date = new Date();
+
+            console.log(date.getDate() + "/" + date.getMonth() + "/" + date.getFullYear())
+
+            document.getElementById("demop").innerHTML = date.getDate() + "/" + date.getMonth() + "/" + date.getFullYear();
+
+            document.getElementById("demop").style.backgroundColor = "blue";
+        }
+
+    </script>
+</head>
+<style>
+    p {
+        background-color: red;
+    }
+</style>
+
+
+
+<body>
+    <p id="demop">hello world</p>
+
+    <input type="button" value="change text" onclick="funChange()" id="buu" />
+    <input type="text" placeholder="hhh" id="d" />
+    <div class="container" id="content">
+        <p class="para" id="para1"></p>
+        <p class="para" id="para1"></p>
+        <p class="para" id="para1"></p>
+        <p class="para" id="para1"></p>
+        <p class="para" id="para1"></p>
+        </di>
+
+</body>
+
+</html>
